@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Singleton_Design_Pattern_ThreadSafe.Helpers
 {
+    //singleton design pattern class
     public sealed class UniqueKeyGenerator
     {
         private static UniqueKeyGenerator instance = null!;
@@ -20,6 +21,7 @@ namespace Singleton_Design_Pattern_ThreadSafe.Helpers
             this.UniqueKey = uniqueKey;
         }
 
+        //public method to get the object of class
         public static UniqueKeyGenerator GetInstance()
         {
             if (instance == null)
