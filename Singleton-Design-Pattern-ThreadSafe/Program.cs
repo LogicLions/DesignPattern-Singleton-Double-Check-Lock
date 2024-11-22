@@ -8,6 +8,7 @@ namespace Singleton_Design_Pattern_ThreadSafe
         {
             Console.WriteLine(UniqueKeyGenerator.GetInstance().GetUniqueKey);
             Console.WriteLine(UniqueKeyGenerator.GetInstance().GetUniqueKey);
+            Console.WriteLine(UniqueKeyGenerator.GetInstance().GetUniqueKey);
         }
     }
 }

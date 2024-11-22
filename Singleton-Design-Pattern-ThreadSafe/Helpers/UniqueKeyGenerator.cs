@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.NetworkInformation;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Singleton_Design_Pattern_ThreadSafe.Helpers
+﻿namespace Singleton_Design_Pattern_ThreadSafe.Helpers
 {
     //singleton design pattern class
     public sealed class UniqueKeyGenerator
